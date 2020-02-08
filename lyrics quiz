@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>super awesome quiz</title>
+<link href ="style.css" rel = "stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href ="https://coolors.co/004e64-00a5cf-9fffcb-25a18e-7ae582/" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+<body>
+
+<h1>Finish these Lyrics from Epic Movies and Musicals</h1>
+
+<img src= "https://media0.giphy.com/media/p4dO7CJCpBStMDp22V/giphy.gif", width = 100px, height = 100px> </img> 
+<img src= "https://media0.giphy.com/media/p4dO7CJCpBStMDp22V/giphy.gif", width = 100px, height = 100px> </img> 
+<img src= "https://media0.giphy.com/media/p4dO7CJCpBStMDp22V/giphy.gif", width = 100px, height = 100px> </img> 
+<img src= "https://media0.giphy.com/media/jgKzLAaXcxHDa/source.gif", width = 200px, height = 150px> </img> 
+<img src= "https://media0.giphy.com/media/jgKzLAaXcxHDa/source.gif", width = 200px, height = 150px> </img> 
+<img src= "https://media0.giphy.com/media/jgKzLAaXcxHDa/source.gif", width = 200px, height = 150px> </img> 
+
+
+<form id = "quiz" name = "quiz">
+
+
+
+<div id = "q1">
+<p>"You better run, run, run, here we come, revvin' our engines under the sun: "</p>
+
+<input type = "radio" id = "mc" name = "q1" value = "slicked back hair, man things are gettin' heavy"> slicked back hair, man things are gettin' heavy<br>
+<input type = "radio" id = "mc" name = "q1" value = "we're cruisin' for a bruisin'"> we're cruisin' for a bruisin'<br>
+<input type = "radio" id = "mc" name = "q1" value = "we're ridin' for a slidin'">we're ridin' for a slidin'<br>
+<input type = "radio" id = "mc" name = "q1" value = "greased lightning! go greased lightning!">greased lightning! go greased lightning!<br>
+</div>
+
+
+
+
+<div id = "q2">
+<p>"We've got to work, work, work this out. We'll make things right: "</p>
+
+<input type = "radio" id = "mc" name = "q2" value = "we're out of time">we're out of time<br>
+<input type = "radio" id = "mc" name = "q2" value = "it's what the future's about">it's what the future's about<br>
+<input type = "radio" id = "mc" name = "q2" value = "the future's mine">the future's mine<br>
+<input type = "radio" id = "mc" name = "q2" value = "the sun will shine">the sun will shine<br>
+</div>
+
+
+<div id = "q3">
+<p>"My head is saying, fool forget him! My heart is saying, :</p>
+
+<input type = "radio" id = "mc" name = "q3" value = "don't let go">don't let go<br>
+<input type = "radio" id = "mc" name = "q3" value = "run away">run away<br>
+<input type = "radio" id = "mc" name = "q3" value = "fall into his arms">fall into his arms<br>
+<input type = "radio" id = "mc" name = "q3" value = "never leave">never leave<br>
+</div>
+
+
+<div id = "q4">
+<p>"Cut loose, Footloose, kick off your Sunday shoes! Please, :"</p>
+
+<input type = "radio" id = "mc" name = "q4" value = "Mackie, shake away those bees">Mackie, shake away those bees<br>
+<input type = "radio" id = "mc" name = "q4" value = "Jackie, shimmy in the sea">Jackie, shimmy in the sea<br>
+<input type = "radio" id = "mc" name = "q4" value = "Marie, shake it, shake it for me">Marie, shake it, shake it for me<br>
+<input type = "radio" id = "mc" name = "q4" value = "Louise, pull me off my knees">Louise, pull me off my knees<br>
+</div>
+
+
+<div id = "q5">
+<p>"Because I've had ________, No, I've never felt this way before"</p>
+
+<input type = "radio" id = "mc" name = "q5" value = "a romance to keep">a romance to keep<br>
+<input type = "radio" id = "mc" name = "q5" value = "the love of my life">the love of my life<br>
+<input type = "radio" id = "mc" name = "q5" value = "the time of my life">the time of my life<br>
+<input type = "radio" id = "mc" name = "q5" value = "the time of my love">the time of my love<br>
+</div>
+
+<div id = "q6">
+<p>"When you wish upon a star, makes no difference who you are, :"</p>
+
+<input type = "radio" id = "mc" name = "q6" value = "anything your heart desires will come to you">anything your heart desires will come to you<br>
+<input type = "radio" id = "mc" name = "q6" value = "your dreams come true">your dreams come true<br>
+<input type = "radio" id = "mc" name = "q6" value = "anything will be sure to come to you">anything will be sure to come to you<br>
+<input type = "radio" id = "mc" name = "q6" value = "anything and all your dreams will come right true">anything and all your dreams will come right true<br>
+</div>
+
+<div id = "q7">
+<p>"Up where they walk, up where they: "</p>
+
+<input type = "radio" id = "mc" name = "q7" value = "talk, up where they stay awake in the sun">talk, up where they stay awake in the sun<br>
+<input type = "radio" id = "mc" name = "q7" value = "talk, up where they stay all day in the sun">talk, up where they stay all day in the sun<br>
+<input type = "radio" id = "mc" name = "q7" value = "run, up where they stay all day in the sun">run, up where they stay all day in the sun<br>
+<input type = "radio" id = "mc" name = "q7" value = "run, up where they dance and cheer in the sun">answer<br>
+</div>
+
+<div id = "q8">
+<p>"A whole new world, a _________! But when I'm way up here, it's crystal clear, that now I'm in a whole new world with you"</p>
+
+<input type = "radio" id = "mc" name = "q8" value = "dazzling place I never knew">dazzling place I never knew<br>
+<input type = "radio" id = "mc" name = "q8" value = "new fantastic point of view">new fantastic point of view<br>
+<input type = "radio" id = "mc" name = "q8" value = "spectacular place to be">spectacular place to be<br>
+<input type = "radio" id = "mc" name = "q8" value = "sparkling sea of time">sparkling sea of time<br>
+</div>
+
+<div id = "q9">
+<p>"And I am almost there! Almost there. ___________! But I don't care"</p>
+
+<input type = "radio" id = "mc" name = "q9" value = "And right now I'm the talk of the town">And right now I'm the talk of the town<br>
+<input type = "radio" id = "mc" name = "q9" value = "People down here think I'm crazy">People down here think I'm crazy<br>
+<input type = "radio" id = "mc" name = "q9" value = "People down here think I'll never make it">People down here think I'll never make it<br>
+<input type = "radio" id = "mc" name = "q9" value = "And Papa says I'm workin' too hard">And Papa says I'm workin' too hard<br>
+</div>
+
+<div id = "q10">
+<p>"Take my hand, take a breath, pull me close, :"</p>
+
+<input type = "radio" id = "mc" name = "q10" value = "and dance with me">and dance with me<br>
+<input type = "radio" id = "mc" name = "q10" value = "and gimme a hug u cutie">and gimme a hug u cutie<br>
+<input type = "radio" id = "mc" name = "q10" value = "and kiss my hand">and kiss my hand<br>
+<input type = "radio" id = "mc" name = "q10" value = "and take one step">and take one step<br>
+</div>
+
+<input id = "button" type = "button" value = "I'm done!" onclick = "check();">
+
+</form>
+
+<div id = "after_submit">
+	<div id = "number_correct"></div>
+	<div id = "response"></div>
+
+</body>
+
+</html>
+
