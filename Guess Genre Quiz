@@ -1,0 +1,35 @@
+<div id="GuessGenreQuiz"></div>
+<button id="submit">Submit Quiz</button>
+<div id="results"></div>
+
+const quizContainer = document.getElementById('GuessGenreQuiz');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
+
+function buildQuiz()
+{
+  //code here
+}
+
+function showResults()
+{
+  //code here
+}
+
+buildQuiz();
+
+submitButton.addEventListener('click', showResults);
+
+const myQuestions
+{
+  Question: "What do you like to do on Friday nights?"
+  Answers: 
+  {
+    a: "go to a party"
+    b: "hang out at home"
+    c: "try new things"
+    d: "meet up with friends"
+  }
+  //store answer for later
+  Question: "
+}
