@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="personality.css" rel="stylesheet">
+    <script src="personality.js"></script>
+</head>
+<body>
+    <h3>Which Disney Character Are You?</h3>
+    <form id="quiz" name="quiz">
+        <div id="q1">
+        <p>What do you do in your free time?</p>
+        <input type="radio" id="mc" name="question1" value="book">read my favorite book<br>
+        <input type="radio" id="mc" name="question1" value="visionboard">edit my vision board<br>
+        <input type="radio" id="mc" name="question1" value="sport">practice my favorite sport<br>
+        <input type="radio" id="mc" name="question1" value="art">make art<br>
+        </div>
+
+        <div id="q2">
+        <br><p>What's your best trait?</p>
+        <input type="radio" id="mc" name="question2" value="intelligence">my intelligence<br>
+        <input type="radio" id="mc" name="question2" value="ambition">my ambition<br>
+        <input type="radio" id="mc" name="question2" value="bravery">my bravery<br>
+        <input type="radio" id="mc" name="question2" value="kindness">my kindness<br>
+        </div>
+
+        <div id="q3">
+        <br><p>What's your worst trait?</p>
+        <input type="radio" id="mc" name="question3" value="aloof">being aloof<br>
+        <input type="radio" id="mc" name="question3" value="uptight">being uptight<br>
+        <input type="radio" id="mc" name="question3" value="stubborn">being stubborn<br>
+        <input type="radio" id="mc" name="question3" value="trusting">being too trusting<br>
+        </div>
+
+        <div id="q4">
+        <br><p>What do you value the most?</p>
+        <input type="radio" id="mc" name="question4" value="education">education<br>
+        <input type="radio" id="mc" name="question4" value="goals">achieving my goals<br>
+        <input type="radio" id="mc" name="question4" value="family">family<br>
+        <input type="radio" id="mc" name="question4" value="independence">independence<br>
+        </div>
+
+        <div id="q5">
+        <br><p>Where do you see yourself in ten years?</p>
+        <input type="radio" id="mc" name="question5" value="author">a New York Times bestselling author<br>
+        <input type="radio" id="mc" name="question5" value="business">running my own business<br>
+        <input type="radio" id="mc" name="question5" value="overthrowing">overthrowing the patriarchy<br>
+        <input type="radio" id="mc" name="question5" value="traveling">traveling the world<br>
+        </div>
+
+        <div id="q6">
+        <br><p>What's your favorite Disney song?</p>
+        <input type="radio" id="mc" name="question6" value="colors">Colors of the Wind<br>
+        <input type="radio" id="mc" name="question6" value="howfar">How Far I'll Go<br>
+        <input type="radio" id="mc" name="question6" value="letitgo">Let It Go<br>
+        <input type="radio" id="mc" name="question6" value="wholenewworld">A Whole New World<br>
+        </div>
+
+        <div id="q7">
+        <br><p>What's your favorite movie?</p>
+        <input type="radio" id="mc" name="question7" value="harrypotter">Harry Potter and the Goblet of Fire<br>
+        <input type="radio" id="mc" name="question7" value="hiddenfigures">Hidden Figures<br>
+        <input type="radio" id="mc" name="question7" value="captainmarvel">Captain Marvel<br>
+        <input type="radio" id="mc" name="question7" value="ferrisbueller">Ferris Bueller's Day Off<br>
+        </div>
+
+        <div id="q8">
+        <br><p>What's your favorite color?</p>
+        <input type="radio" id="mc" name="question8" value="yellow">yellow<br>
+        <input type="radio" id="mc" name="question8" value="green">green<br>
+        <input type="radio" id="mc" name="question8" value="red">red<br>
+        <input type="radio" id="mc" name="question8" value="purple">purple<br>
+        </div>
+
+        <div id="q9">
+        <br><p>What do you watch on Netflix?</p>
+        <input type="radio" id="mc" name="question9" value="greys">Grey's Anatomy<br>
+        <input type="radio" id="mc" name="question9" value="bakeoff">Great British Bakeoff<br>
+        <input type="radio" id="mc" name="question9" value="strangerthings">Stranger Things<br>
+        <input type="radio" id="mc" name="question9" value="riverdale">Riverdale<br>
+        </div>
+
+        <div id="q10">
+        <br><p>Where's your dream vacation?</p>
+        <input type="radio" id="mc" name="question10" value="london">London<br>
+        <input type="radio" id="mc" name="question10" value="newyork">New York<br>
+        <input type="radio" id="mc" name="question10" value="switzerland">Switzerland<br>
+        <input type="radio" id="mc" name="question10" value="japan">Japan<br>
+        </div>
+        <br><br>
+        
+        <input id="button" type="button" value="Get Results!" onclick="results();">
+        <br><br>
+
+    </form>
+
+    <div id="after_submit">
+        <div id="results"></div>
+    </div>
+
+</body>
+</html>
