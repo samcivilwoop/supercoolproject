@@ -92,7 +92,7 @@
 <input type = "radio" id = "mc" name = "q7" value = "talk, up where they stay awake in the sun">talk, up where they stay awake in the sun<br>
 <input type = "radio" id = "mc" name = "q7" value = "talk, up where they stay all day in the sun">talk, up where they stay all day in the sun<br>
 <input type = "radio" id = "mc" name = "q7" value = "run, up where they stay all day in the sun">run, up where they stay all day in the sun<br>
-<input type = "radio" id = "mc" name = "q7" value = "run, up where they dance and cheer in the sun">answer<br>
+<input type = "radio" id = "mc" name = "q7" value = "run, up where they dance and cheer in the sun">run, up where they dance and cheer in the sun<br>
 </div>
 
 <div id = "q8">
@@ -133,4 +133,6 @@
 </body>
 
 </html>
+
+
 
