@@ -5,15 +5,18 @@
 const quizContainer = document.getElementById('GuessGenreQuiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+var currentQuestion = 0;
+var questionNumber = 0;
 
 function buildQuiz()
 {
-  //code here
+  const output = []
+  myQuestions.forEach(currentQuestion, questionNumber)
 }
 
 function showResults()
 {
-  //code here
+  //code here: caller submitButton then we need it to load on the screen
 }
 
 buildQuiz();
@@ -22,7 +25,7 @@ submitButton.addEventListener('click', showResults);
 
 const myQuestions
 {
-  Question: "What do you like to do on Friday nights?"
+  Question1: "What do you like to do on Friday nights?"
   Answers: 
   {
     a: "go to a party"
@@ -31,5 +34,22 @@ const myQuestions
     d: "meet up with friends"
   }
   //store answer for later
-  Question: "
-}
+  Question2: "What's your favorite food?"
+  Answers:
+  {
+    a: "ice cream"
+    b: "pasta"
+    c: "fruit"
+    d: "bacon"
+  }
+  for(letter in currentQuestion.answers)
+  {
+    answers.push
+    (
+     `<label>
+       <input type="radio" name="question${questionNumber}" value="${letter}">
+       ${letter} :
+       ${currentQuestion.answers[letter]}
+     </label>`
+    );
+  } 
