@@ -1,0 +1,38 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #3CB371;
+}
+#after_submit {
+	visibility: hidden;
+}
+
+#q1{
+	background-color: #6BD9E8;
+}
+#q2{
+	background-color: #B96BE8 ;
+}
+#q3{
+	background-color: #6BD9E8 ;
+}
+#q4{
+	background-color: #B96BE8 ;
+}
+#q5{
+	background-color: #6BD9E8 ;
+}
+#q6{
+	background-color: #B96BE8 ;
+}
+#q7{
+	background-color: #6BD9E8 ;
+}
+#q8{
+	background-color: #B96BE8 ;
+}
+#q9{
+	background-color: #6BD9E8 ;
+}
+#q10{
+	background-color: #B96BE8 ;
+}
