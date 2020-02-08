@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="quizstyle.css" type="text/css">
+    </head>
+
+    <body>
+        <!-- tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openCategory(event, 'personality')">Personality Quizzes</button>
+        <button class="tablinks" onclick="openCategory(event, 'trivia')">Trivia Quizzes</button>
+    </div>
+  
+  <!-- Tab content -->
+  <div id="personality" class="tabcontent">
+    <h3>Personality Quizzes</h3>
+    <p><a href="personalityquiz.html">Which Disney Princess Are You?</a></p>
+  </div>
+  
+  <div id="trivia" class="tabcontent">
+    <h3>Trivia Quizzes</h3>
+    <p><a href="lyrics.html">Finish The Song Lyrics</a></p>
+  </div>
+
+    <script>
+        function openCategory(evt, quiztype){
+            //declare all variables
+            var i, tabcontent, tablinks;
+  
+            //get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++){
+                tabcontent[i].style.display = "none";
+            }
+  
+            //get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++){
+                tablinks[i].className = tablinks[i].className.replace("active","");  
+            }
+            // Show the current tab, and add an "active" class to the button that opened the tab
+             document.getElementById(quiztype).style.display = "block";
+             evt.currentTarget.className += " active";
+             console.log(quiztype);
+        }
+    </script>
+
+</body>
+    
+</html>
