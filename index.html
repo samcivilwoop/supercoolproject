@@ -1,0 +1,74 @@
+<DOCTYPE html>
+<html>
+<head>
+
+<title>Trivia Quizzes</title>
+<link href= "style.css" rel="stylesheet">
+<link href= "https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+<body>
+<h1> Trivia Quiz:</h1>
+
+<h2> Famous Women in History </h2>
+
+<form id = "quiz" name = "quiz">
+
+<p>1. True or False: Feminism is the idea that women and men are both equal to one another.</p>
+<input type = "radio" id = "mc" name = "question1" value = "True" > True <br>
+<input type = "radio" id = "mc" name = "question1" value = "False" > False <br>
+
+<p>2. Which of these best describes Elizabeth Cady Stanton?</p>
+<input type = "radio" id = "mc" name="question2" value = "Women's rights/suffrage theorist and activist"> Women's rights/suffrage theorist and activist<br>
+<input type = "radio" id = "mc" name="question2" value = "Abolitionist in the Civil War"> Abolitionist in the Civil War<br>
+<input type = "radio" id = "mc" name="question2" value = "Creator of the American Flag"> Creator of the American Flag<br>
+<input type = "radio" id = "mc" name="question2" value = "Feminist author"> Feminist author <br>
+
+<p>3. What is women's suffrage?</p>
+<input type = "radio" id = "mc" name="question3" value = "Fighting for women's right to be in the military"> Fighting for women's right to be in the military<br>
+<input type = "radio" id = "mc" name="question3" value = "Fighting to end women's suffering"> Fighting to end women's suffering<br>
+<input type = "radio" id = "mc" name="question3" value = "Fighting for women's right to vote"> Fighting for women's right to vote<br>
+<input type = "radio" id = "mc" name="question3" value = "Finish homework"> Fighting to end slavery<br>
+
+<p>4. Who was Marie Curie?</p>
+<input type = "radio" id = "mc" name="question4" value = "A famous woman abolitionist"> A famous woman abolitionist<br>
+<input type = "radio" id = "mc" name="question4" value = "Mother of modern physics, two-time Nobel Prize winner"> Mother of modern physics, two-time Nobel Prize winner<br>
+<input type = "radio" id = "mc" name="question4" value = "Women's suffrage activist"> Women's suffrage activist<br>
+<input type = "radio" id = "mc" name="question4" value = "Female math expert"> Female math expert<br>
+
+<p>5. Who was the founder of the Red Cross nursing organization?</p>
+<input type = "radio" id = "mc" name="question5" value = "Clara Barton"> Clara Barton<br>
+<input type = "radio" id = "mc" name="question5" value = "Susan B. Anthony"> Susan B. Anthony<br>
+<input type = "radio" id = "mc" name="question5" value = "Frida Kahlo"> Frida Kahlo<br>
+<input type = "radio" id = "mc" name="question5" value = "Elizabeth Cady Stanton"> Elizabeth Cady Stanton<br>
+
+<p>6. Who was the first woman to graduate from medical school?</p>
+<input type = "radio" id = "mc" name="question6" value = "Frida Kahlo"> Frida Kahlo<br>
+<input type = "radio" id = "mc" name="question6" value = "Marie Curie"> Marie Curie<br>
+<input type = "radio" id = "mc" name="question6" value = "Elizabeth Cady Stanton"> Elizabeth Cady Stanton<br>
+<input type = "radio" id = "mc" name="question6" value = "Elizabeth Blackwell"> Elizabeth Blackwell<br>
+
+<p>7. Harriet Tubman, Sojourner Truth, and Rosa Parks all fought for:</p>
+<input type = "radio" id = "mc" name="question7" value = "Abolition of slavery"> Abolition of slavery<br>
+<input type = "radio" id = "mc" name="question7" value = "Women in the military"> Women in the military<br>
+<input type = "radio" id = "mc" name="question7" value = "Women in the workplace"> Women in the workplace<br>
+<input type = "radio" id = "mc" name="question7" value = "Job opportunities for women"> Job opportunities for women<br>
+
+ 
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+</form>
+
+<div id = "after_submit">
+
+    <p id = "message"></p>
+    <p id = "number_correct"></p>
+    <img id = "picture">
+</div>
+</html>
+
+</body>
+
+</html>

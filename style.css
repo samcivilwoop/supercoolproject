@@ -1,0 +1,19 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #76abb4;
+}
+
+#quiz {
+    margin-left: 10px;
+    background: #e8cbf0;
+    padding: 10px 20px 10px 20px;
+    width: 900px;
+    border-radius: 40px;
+    float: left;
+}
+
+
+
+#after_submit {
+    visibility: hidden;
+}
