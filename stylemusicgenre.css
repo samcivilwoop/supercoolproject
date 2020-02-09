@@ -1,0 +1,24 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #6EDDFF;
+}
+
+#done_submit{
+	visibility: hidden;
+}
+
+#ques1{
+	background-color:#96EE0F ;
+}
+#ques2{
+	background-color:#EEEA0F ;
+}
+#ques3{
+	background-color:#EE0F18 ;
+}
+#ques4{
+	background-color:#0FB1EE ;
+}
+#ques5{
+	background-color:#EE0FEE ;
+}
